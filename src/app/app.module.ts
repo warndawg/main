@@ -10,8 +10,8 @@ import { AnalyticsComponent } from './components/analytics/analytics.component';
 import { TopNavbarComponent } from './components/top-navbar/top-navbar.component';
 import { AnalyticsTableComponent } from './components/analytics-table/analytics-table.component';
 import { MaterialModule } from './modules/material.module';
-import {MatCardModule} from '@angular/material/card';
-import {MatListModule} from '@angular/material/list';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -27,8 +27,7 @@ import {MatListModule} from '@angular/material/list';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    MatCardModule,
-    MatListModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
